@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "prepare": "rescript && esbuild ./lib/js/src/demo.js --bundle --outfile=bundle.js"
+    "prepare": "rescript && esbuild ./lib/es6/src/demo.js --bundle --outfile=bundle.js"
   },
   "dependencies": {
     "date-fns": "^2.22.1",
